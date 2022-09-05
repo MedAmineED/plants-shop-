@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>plants shop</title> 
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg " style="max-width: 100%;">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><span>P</span>LANTS</a>
+                    <div id="serch1-hide">
+                    <form class="d-flex" role="search" id="search">
+                            <input class="form-control me-2" type="search"  aria-label="Search" placeholder="search">
+                            <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="bi bi-justify"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li id="search-hiden">
+                                <form class="d-flex" role="search" id="search2">
+                                    <input class="form-control me-2" type="search"  aria-label="Search" placeholder="search">
+                                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                                </form>
+                            </button>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    categories
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">flowers</a></li>
+                                    <li><a class="dropdown-item" href="#">fruits</a></li>
+                                    <li><a class="dropdown-item" href="#">tree</a></li>
+                                    <li><a class="dropdown-item" href="#">tools</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">promotions</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact Us/contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+                            </li>
+                            <li class="nav-item" id="social">
+                                <a class="nav-link"><i class="bi bi-facebook"></i></a>
+                                <a class="nav-link"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="nav-item" id="log">
+                            <a href=""><div id="login"> 
+                                    <i class="bi bi-person-circle"></i>
+                                    <p>Login</p>
+                                </a>
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>  
+        <div class="presentation">
+                <div class="discription">
+                        <h1>Our Plants Shop</h1>
+                        <div id="disc">
+                            <div class="line" id="line1"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere voluptatum error dignissimos, exercitationem qui expedita delectus perferendis magnam nesciunt accusantium, iure provident dolores rerum. Explicabo id iure beatae nobis.</p>
+                            <div class="line" id="line2"></div>
+                        </div>
+                </div>
+        </div> 
+        
+        <div class="container ms-0" id="prod-container" style="max-width: 100%;">
+                <div class="row" id="featured">
+                    <div class="col-12" id="prod-title">
+                        <h1>Featured Product</h1>
+                    </div>
+                </div>
+                <div class="row" id="line3"></div>
+                <div class="row" id="prod">
+                    <div class="col-lg-2 col-md-4 col-sm-6 feat-prod">
+                        <a href="buy/buy.html">
+                            <div class="card card-prod">
+                                <img src="image/500.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">plant name</h5>
+                                <p>price: 12<i class="bi bi-currency-dollar"></i></p>
+                                <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 feat-prod">
+                        <a href="buy/buy.html">
+                            <div class="card card-prod">
+                                <img src="image/6666.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">plant name</h5>
+                                <p>price: 12<i class="bi bi-currency-dollar"></i></p>
+                                <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 feat-prod">
+                        <a href="buy/buy.html">
+                            <div class="card card-prod">
+                                <img src="image/44444.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">plant name</h5>
+                                <p>price: 12<i class="bi bi-currency-dollar"></i></p>
+                                <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 feat-prod">
+                        <a href="buy/buy.html">
+                            <div class="card card-prod">
+                                <img src="image/djebk.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">plant name</h5>
+                                <p>price: 12<i class="bi bi-currency-dollar"></i></p>
+                                <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 feat-prod">
+                        <a href="buy/buy.html">
+                            <div class="card card-prod">
+                                <img src="image/images.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">plant name</h5>
+                                <p>price: 12<i class="bi bi-currency-dollar"></i></p>
+                                <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 feat-prod">
+                        <a href="buy/buy.html">
+                            <div class="card card-prod">
+                                <img src="image/jnbk.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">plant name</h5>
+                                <p>price: 12<i class="bi bi-currency-dollar"></i></p>
+                                <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <section class="container ms-0" id="product-types" style="max-width: 100%;">
+                    <div class="row" id="slide-img">
+                        <div class="col-lg-6 col-md-12 sld">
+                            <figure>
+                                <img src="image/potted-fruit-trees.jpg" alt="">
+                                <img src="image/808080.jpg" alt="">
+                                <img src="image/200.jpg" alt="">
+                            </figure>
+                            <h1>Design Your Garden</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, pariatur? A in saepe modi ducimus officia obcaecati non eum placeat quam.</p>
+                            <button>shop now</button>
+                            <div class= "back-vid">
+                                <video autoplay loop muted>
+                                    <source src="video/vd background.mp4" type="video/mp4">
+                                </video>
+                                <div class= "vid-disc">
+                                    <h1>TITLE</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque provident deleniti laudantium alias corrupti ab ullam, ex, impedit labore, praesentium eum! Consequuntur eius vitae nisi. Nesciunt labore quidem dolore!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12" id="types">
+                            <div class="row">
+                                <div class="cont-cat">
+                                    <div class="col-12 line21"></div>
+                                    <h1>Plants</h1>
+                                    <div class="col-12 line21"></div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href="buy/buy.html"><img src="image/44444.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Palnt name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href="buy/buy.html"><img src="image/44444.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Palnt name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href=""><img src="image/44444.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Palnt name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href=""><img src="image/44444.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Palnt name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                <button id="more">SEE MORE <i class="bi bi-arrow-right"></i></button>
+                            </div>
+                            <div class="row">
+                                <div class="cont-cat">
+                                    <div class="col-12 line21"></div>
+                                    <h1>Tools</h1>
+                                    <div class="col-12 line21"></div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href=""><img src="image/7777.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Tool name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href=""><img src="image/900.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Tool name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href=""><img src="image/900.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Tool name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 my-card">
+                                    <a href=""><img src="image/10000.jpg" alt=""></a>
+                                    <div class="discription-card" id="p-type">
+                                        <h5>Tool name</h5>
+                                        <a href="buy/buy.html"><button>buy<i class="bi bi-cart-plus"></i></button></a>
+                                    </div>
+                                </div>
+                                <button id="more">SEE MORE <i class="bi bi-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section class="our-galery">
+                    <div class="galery-title">
+                        <h1>Our Galery</h1>
+                    </div>
+                    <div class="container col-12" style="max-width: 100%;">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 gal-img">
+                                <img src="image/pexels-capricious-wayfarer-(saptarshi)-974400.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 gal-img">
+                                <img src="image/pexels-dương-nhân-2817549.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 gal-img">
+                                <img src="image/pexels-karolina-grabowska-4750272.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 gal-img">
+                                <img src="image/pexels-▃-1105019.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>    
+                        
+                    
+        </section>
+
+        <footer class="col-15">
+            <div class="foot">
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+                <a href="contact Us/contact.html"><Button>Contact Us</Button></a>
+            </div>    
+            <div class="line-footer"></div>
+                <p>©Copy Right 2022</p>
+        </footer>
+
+    </body>
+</html>
